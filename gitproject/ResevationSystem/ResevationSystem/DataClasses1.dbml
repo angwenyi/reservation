@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="HM2" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DAVIS-THINK\SQLEXPRESS;Initial Catalog=HM2;Integrated Security=True" SettingsObjectName="ResevationSystem.Properties.Settings" SettingsPropertyName="HM2ConnectionString1" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.IResource" Member="IResources">
+    <Type Name="IResource">
+      <Column Name="IResourceID" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Resource" Type="System.String" DbType="NChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="Cost" Type="System.Decimal" DbType="Decimal(18,0) NOT NULL" CanBeNull="false" />
+      <Column Name="TotalCost" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ILocation" Member="ILocations">
+    <Type Name="ILocation">
+      <Column Name="LocationID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Location" Type="System.String" DbType="NChar(50)" CanBeNull="true" />
+      <Association Name="ILocation_ICategory" Member="ICategories" ThisKey="LocationID" OtherKey="ILocationID" Type="ICategory" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ICategories" Member="ICategories">
+    <Type Name="ICategory">
+      <Column Name="categoriesID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Categories" Type="System.String" DbType="NChar(50)" CanBeNull="true" />
+      <Column Name="ILocationID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="ICategory_IFacility" Member="IFacilities" ThisKey="categoriesID" OtherKey="CategoryID" Type="IFacility" />
+      <Association Name="ILocation_ICategory" Member="ILocation" ThisKey="ILocationID" OtherKey="LocationID" Type="ILocation" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.IFacility" Member="IFacilities">
+    <Type Name="IFacility">
+      <Column Name="FacilityID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="FacilityName" Type="System.String" DbType="NChar(50)" CanBeNull="true" />
+      <Column Name="Price" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="Description" Type="System.String" DbType="NChar(50)" CanBeNull="true" />
+      <Column Name="CategoryID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="ICategory_IFacility" Member="ICategory" ThisKey="CategoryID" OtherKey="categoriesID" Type="ICategory" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.HiredFacilities" Member="HiredFacilities">
+    <Type Name="HiredFacility">
+      <Column Name="TFacilityID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="TFacility" Type="System.String" DbType="NChar(50)" CanBeNull="true" />
+      <Column Name="TPricing" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="HQuantity" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="Description" Type="System.String" DbType="NChar(50)" CanBeNull="true" />
+      <Column Name="FunctionID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="IFunction_HiredFacility" Member="IFunction" ThisKey="FunctionID" OtherKey="FunctionID" Type="IFunction" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.IRoom" Member="IRooms">
+    <Type Name="IRoom">
+      <Column Name="IRoomID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="RoomType" Type="System.String" DbType="NChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="RoomState" Type="System.String" DbType="NChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="RoomCost" Type="System.Decimal" DbType="Decimal(18,0) NOT NULL" CanBeNull="false" />
+      <Column Name="IRoomNumber" Type="System.String" DbType="NChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="IBookingID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="isAvailable" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ITypeRoomCust" Member="ITypeRoomCusts">
+    <Type Name="ITypeRoomCust">
+      <Column Name="TypeID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Type" Type="System.String" DbType="NChar(50)" CanBeNull="true" />
+      <Association Name="ITypeRoomCust_ISport" Member="ISports" ThisKey="TypeID" OtherKey="ITypeRoomCust" Type="ISport" />
+      <Association Name="ITypeRoomCust_ICorporate" Member="ICorporates" ThisKey="TypeID" OtherKey="ITypeRoomCust" Type="ICorporate" />
+      <Association Name="ITypeRoomCust_Individual" Member="Individuals" ThisKey="TypeID" OtherKey="ITypeRoomCust" Type="Individual" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ISports" Member="ISports">
+    <Type Name="ISport">
+      <Column Name="SportgroupID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Type" Type="System.String" DbType="NChar(20)" CanBeNull="true" />
+      <Column Name="Price" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="ITypeRoomCust" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="ITypeRoomCust_ISport" Member="ITypeRoomCust1" ThisKey="ITypeRoomCust" OtherKey="TypeID" Type="ITypeRoomCust" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ICorporate" Member="ICorporates">
+    <Type Name="ICorporate">
+      <Column Name="IDCorporate" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Type" Type="System.String" DbType="NChar(20)" CanBeNull="true" />
+      <Column Name="Price" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="ITypeRoomCust" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="ITypeRoomCust_ICorporate" Member="ITypeRoomCust1" ThisKey="ITypeRoomCust" OtherKey="TypeID" Type="ITypeRoomCust" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Individual" Member="Individuals">
+    <Type Name="Individual">
+      <Column Name="IndividualID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Type" Type="System.String" DbType="NChar(20)" CanBeNull="true" />
+      <Column Name="Price" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="ITypeRoomCust" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="ITypeRoomCust_Individual" Member="ITypeRoomCust1" ThisKey="ITypeRoomCust" OtherKey="TypeID" Type="ITypeRoomCust" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.IBooking" Member="IBookings">
+    <Type Name="IBooking">
+      <Column Name="BookingID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Surname" Type="System.String" DbType="NChar(50)" CanBeNull="true" />
+      <Column Name="OtherNames" Type="System.String" DbType="NChar(50)" CanBeNull="true" />
+      <Column Name="Email" Type="System.String" DbType="NChar(50)" CanBeNull="true" />
+      <Column Name="PhoneNum" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ArrivalDate" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="ArrivalTime" Type="System.TimeSpan" DbType="Time" CanBeNull="true" />
+      <Column Name="DepatureDate" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="DepartureTime" Type="System.TimeSpan" DbType="Time" CanBeNull="true" />
+      <Column Name="NumberOfAdults" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="NoOfNights" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="RoomNum" Type="System.String" DbType="NChar(50)" CanBeNull="true" />
+      <Column Name="ClientType" Type="System.String" DbType="NChar(50)" CanBeNull="true" />
+      <Column Name="Selected" Type="System.String" DbType="NChar(30)" CanBeNull="true" />
+      <Column Name="RCost" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="Status" Type="System.String" DbType="NChar(50)" CanBeNull="true" />
+      <Column Name="TotalAmount" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="Balance" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="DepositedAmount" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="ChequeNum" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="RoomRate" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="CheckIn" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="CheckOut" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.IFunction" Member="IFunctions">
+    <Type Name="IFunction">
+      <Column Name="FunctionID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ContactPerson" Type="System.String" DbType="NChar(50)" CanBeNull="true" />
+      <Column Name="Organization" Type="System.String" DbType="NChar(50)" CanBeNull="true" />
+      <Column Name="FunctionName" Type="System.String" DbType="NChar(50)" CanBeNull="true" />
+      <Column Name="PhoneNum" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="StartDateFunction" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="EndDateFunction" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Location" Type="System.String" DbType="NChar(50)" CanBeNull="true" />
+      <Column Name="ResidentialNum" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="NRnum" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DepositedAmount" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="ChequeNum" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="TotalAmount" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="CustomerNumber" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="PaymentType" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Association Name="IFunction_HiredFacility" Member="HiredFacilities" ThisKey="FunctionID" OtherKey="FunctionID" Type="HiredFacility" />
+      <Association Name="IFunction_Xtra" Member="Xtras" ThisKey="FunctionID" OtherKey="FunctionID" Type="Xtra" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Xtras" Member="Xtras">
+    <Type Name="Xtra">
+      <Column Name="ExtrasID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="SelectedService" Type="System.String" DbType="NChar(50)" CanBeNull="true" />
+      <Column Name="Cost" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="Pax" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="FunctionID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="IFunction_Xtra" Member="IFunction" ThisKey="FunctionID" OtherKey="FunctionID" Type="IFunction" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>

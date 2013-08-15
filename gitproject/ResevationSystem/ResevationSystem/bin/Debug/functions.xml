@@ -1,0 +1,398 @@
+<?xml version="1.0" standalone="yes"?>
+<ArrayOfItemInfo>
+  <ItemInfo>
+    <TFacility>1                                                 </TFacility>
+    <ContactPerson>dad                                               </ContactPerson>
+    <Organization>ada                                               </Organization>
+    <PhoneNum>33</PhoneNum>
+    <StartDateFunction>2013-07-03T00:00:00+03:00</StartDateFunction>
+    <EndDateFunction>2013-07-24T00:00:00+03:00</EndDateFunction>
+    <Location>KASARANI                                          </Location>
+    <ResidentialNum>12</ResidentialNum>
+    <NRnum>11</NRnum>
+    <CustomerNumber>S0022</CustomerNumber>
+  </ItemInfo>
+  <ItemInfo>
+    <TFacility>1                                                 </TFacility>
+    <ContactPerson>dad                                               </ContactPerson>
+    <Organization>ada                                               </Organization>
+    <PhoneNum>33</PhoneNum>
+    <StartDateFunction>2013-07-03T00:00:00+03:00</StartDateFunction>
+    <EndDateFunction>2013-07-24T00:00:00+03:00</EndDateFunction>
+    <Location>KASARANI                                          </Location>
+    <ResidentialNum>12</ResidentialNum>
+    <NRnum>11</NRnum>
+    <CustomerNumber>S0022</CustomerNumber>
+  </ItemInfo>
+  <ItemInfo>
+    <HQuantity>5</HQuantity>
+    <TFacility>Educational Tours                                 </TFacility>
+    <ContactPerson>dadadasd                                          </ContactPerson>
+    <Organization>dadadas                                           </Organization>
+    <PhoneNum>222</PhoneNum>
+    <StartDateFunction>2013-07-03T00:00:00+03:00</StartDateFunction>
+    <EndDateFunction>2013-07-31T00:00:00+03:00</EndDateFunction>
+    <Location>KASARANI                                          </Location>
+    <ResidentialNum>22</ResidentialNum>
+    <NRnum>22</NRnum>
+    <CustomerNumber>S0023</CustomerNumber>
+  </ItemInfo>
+  <ItemInfo>
+    <HQuantity>5</HQuantity>
+    <TFacility>LCD Projector                                     </TFacility>
+    <ContactPerson>dadadasd                                          </ContactPerson>
+    <Organization>dadadas                                           </Organization>
+    <PhoneNum>222</PhoneNum>
+    <StartDateFunction>2013-07-03T00:00:00+03:00</StartDateFunction>
+    <EndDateFunction>2013-07-31T00:00:00+03:00</EndDateFunction>
+    <Location>KASARANI                                          </Location>
+    <ResidentialNum>22</ResidentialNum>
+    <NRnum>22</NRnum>
+    <CustomerNumber>S0023</CustomerNumber>
+  </ItemInfo>
+  <ItemInfo>
+    <HQuantity>1</HQuantity>
+    <TFacility>Training Soccer                                   </TFacility>
+    <ContactPerson>Davis Angwenyi                                    </ContactPerson>
+    <Organization>Pinnacle                                          </Organization>
+    <FunctionName>Demonstration                                     </FunctionName>
+    <PhoneNum>711667300</PhoneNum>
+    <StartDateFunction>2013-07-10T00:00:00+03:00</StartDateFunction>
+    <EndDateFunction>2013-07-31T00:00:00+03:00</EndDateFunction>
+    <Location>KASARANI                                          </Location>
+    <ResidentialNum>0</ResidentialNum>
+    <NRnum>100</NRnum>
+    <CustomerNumber>S0024</CustomerNumber>
+  </ItemInfo>
+  <ItemInfo>
+    <HQuantity>5</HQuantity>
+    <TFacility>TV Rights                                         </TFacility>
+    <ContactPerson>Davis Angwenyi                                    </ContactPerson>
+    <Organization>Pinnacle                                          </Organization>
+    <FunctionName>Demonstration                                     </FunctionName>
+    <PhoneNum>711667300</PhoneNum>
+    <StartDateFunction>2013-07-10T00:00:00+03:00</StartDateFunction>
+    <EndDateFunction>2013-07-31T00:00:00+03:00</EndDateFunction>
+    <Location>KASARANI                                          </Location>
+    <ResidentialNum>0</ResidentialNum>
+    <NRnum>100</NRnum>
+    <CustomerNumber>S0024</CustomerNumber>
+  </ItemInfo>
+  <ItemInfo>
+    <HQuantity>1</HQuantity>
+    <TFacility>Concerts                                          </TFacility>
+    <ContactPerson>Mumo Patrick                                      </ContactPerson>
+    <Organization>Stadia                                            </Organization>
+    <FunctionName>ICT Meeting                                       </FunctionName>
+    <PhoneNum>72356852</PhoneNum>
+    <StartDateFunction>2013-07-17T00:00:00+03:00</StartDateFunction>
+    <EndDateFunction>2013-07-31T00:00:00+03:00</EndDateFunction>
+    <Location>NYAYO NATIONAL STADIUM                            </Location>
+    <ResidentialNum>100</ResidentialNum>
+    <NRnum>0</NRnum>
+    <CustomerNumber>S0025</CustomerNumber>
+  </ItemInfo>
+  <ItemInfo>
+    <HQuantity>3</HQuantity>
+    <TFacility>Flood lights                                      </TFacility>
+    <ContactPerson>Mumo Patrick                                      </ContactPerson>
+    <Organization>Stadia                                            </Organization>
+    <FunctionName>ICT Meeting                                       </FunctionName>
+    <PhoneNum>72356852</PhoneNum>
+    <StartDateFunction>2013-07-17T00:00:00+03:00</StartDateFunction>
+    <EndDateFunction>2013-07-31T00:00:00+03:00</EndDateFunction>
+    <Location>NYAYO NATIONAL STADIUM                            </Location>
+    <ResidentialNum>100</ResidentialNum>
+    <NRnum>0</NRnum>
+    <CustomerNumber>S0025</CustomerNumber>
+  </ItemInfo>
+  <ItemInfo>
+    <HQuantity>1</HQuantity>
+    <TFacility>Local Sports Events                               </TFacility>
+    <ContactPerson>Felix Odhiambo                                    </ContactPerson>
+    <Organization>KNUT                                              </Organization>
+    <FunctionName>FootBall Game                                     </FunctionName>
+    <PhoneNum>711658932</PhoneNum>
+    <StartDateFunction>2013-07-03T00:00:00+03:00</StartDateFunction>
+    <EndDateFunction>2013-07-04T00:00:00+03:00</EndDateFunction>
+    <Location>KASARANI                                          </Location>
+    <ResidentialNum>15000</ResidentialNum>
+    <NRnum>0</NRnum>
+    <CustomerNumber>S0026</CustomerNumber>
+  </ItemInfo>
+  <ItemInfo>
+    <HQuantity>1</HQuantity>
+    <TFacility>International Sports Events                       </TFacility>
+    <ContactPerson>Felix Odhiambo                                    </ContactPerson>
+    <Organization>KNUT                                              </Organization>
+    <FunctionName>FootBall Game                                     </FunctionName>
+    <PhoneNum>711658932</PhoneNum>
+    <StartDateFunction>2013-07-03T00:00:00+03:00</StartDateFunction>
+    <EndDateFunction>2013-07-04T00:00:00+03:00</EndDateFunction>
+    <Location>KASARANI                                          </Location>
+    <ResidentialNum>15000</ResidentialNum>
+    <NRnum>0</NRnum>
+    <CustomerNumber>S0026</CustomerNumber>
+  </ItemInfo>
+  <ItemInfo>
+    <HQuantity>1</HQuantity>
+    <TFacility>TV Rights                                         </TFacility>
+    <ContactPerson>John                                              </ContactPerson>
+    <Organization>OceanView                                         </Organization>
+    <FunctionName>SagePastel                                        </FunctionName>
+    <PhoneNum>71236589</PhoneNum>
+    <StartDateFunction>2013-08-01T00:00:00+03:00</StartDateFunction>
+    <EndDateFunction>2013-07-03T00:00:00+03:00</EndDateFunction>
+    <Location>KASARANI                                          </Location>
+    <ResidentialNum>0</ResidentialNum>
+    <NRnum>0</NRnum>
+    <CustomerNumber>S0027</CustomerNumber>
+  </ItemInfo>
+  <ItemInfo>
+    <HQuantity>2</HQuantity>
+    <TFacility>FloodLights                                       </TFacility>
+    <ContactPerson>John                                              </ContactPerson>
+    <Organization>OceanView                                         </Organization>
+    <FunctionName>SagePastel                                        </FunctionName>
+    <PhoneNum>71236589</PhoneNum>
+    <StartDateFunction>2013-08-01T00:00:00+03:00</StartDateFunction>
+    <EndDateFunction>2013-07-03T00:00:00+03:00</EndDateFunction>
+    <Location>KASARANI                                          </Location>
+    <ResidentialNum>0</ResidentialNum>
+    <NRnum>0</NRnum>
+    <CustomerNumber>S0027</CustomerNumber>
+  </ItemInfo>
+  <ItemInfo>
+    <HQuantity>1</HQuantity>
+    <TFacility>Upper Warm Up                                     </TFacility>
+    <ContactPerson>Loise                                             </ContactPerson>
+    <Organization>Stadia management                                 </Organization>
+    <FunctionName>accounting training                               </FunctionName>
+    <PhoneNum>713255984</PhoneNum>
+    <StartDateFunction>2013-08-02T00:00:00+03:00</StartDateFunction>
+    <EndDateFunction>2013-08-02T00:00:00+03:00</EndDateFunction>
+    <Location>KASARANI                                          </Location>
+    <ResidentialNum>0</ResidentialNum>
+    <NRnum>0</NRnum>
+    <CustomerNumber>S0028</CustomerNumber>
+  </ItemInfo>
+  <ItemInfo>
+    <HQuantity>1</HQuantity>
+    <TFacility>Main Hall                                         </TFacility>
+    <ContactPerson>Caroline Karimi                                   </ContactPerson>
+    <Organization>Riruta HGM                                        </Organization>
+    <FunctionName>School Tour                                       </FunctionName>
+    <PhoneNum>71359842</PhoneNum>
+    <StartDateFunction>2013-07-18T00:00:00+03:00</StartDateFunction>
+    <EndDateFunction>2013-07-18T00:00:00+03:00</EndDateFunction>
+    <Location>KASARANI                                          </Location>
+    <ResidentialNum>0</ResidentialNum>
+    <NRnum>0</NRnum>
+    <CustomerNumber>S0030</CustomerNumber>
+  </ItemInfo>
+  <ItemInfo>
+    <HQuantity>1</HQuantity>
+    <TFacility>Training                                          </TFacility>
+    <ContactPerson>Caroline Karimi                                   </ContactPerson>
+    <Organization>Riruta HGM                                        </Organization>
+    <FunctionName>School Tour                                       </FunctionName>
+    <PhoneNum>71359842</PhoneNum>
+    <StartDateFunction>2013-07-18T00:00:00+03:00</StartDateFunction>
+    <EndDateFunction>2013-07-18T00:00:00+03:00</EndDateFunction>
+    <Location>KASARANI                                          </Location>
+    <ResidentialNum>0</ResidentialNum>
+    <NRnum>0</NRnum>
+    <CustomerNumber>S0030</CustomerNumber>
+  </ItemInfo>
+  <ItemInfo>
+    <HQuantity>7</HQuantity>
+    <TFacility>Video/Photo Session                               </TFacility>
+    <ContactPerson>Rose                                              </ContactPerson>
+    <Organization>Tanzania Media                                    </Organization>
+    <FunctionName>Video Shooting                                    </FunctionName>
+    <PhoneNum>71235689</PhoneNum>
+    <StartDateFunction>2013-10-02T00:00:00+03:00</StartDateFunction>
+    <EndDateFunction>2013-10-02T00:00:00+03:00</EndDateFunction>
+    <Location>KASARANI                                          </Location>
+    <ResidentialNum>0</ResidentialNum>
+    <NRnum>0</NRnum>
+    <CustomerNumber>S0031</CustomerNumber>
+  </ItemInfo>
+  <ItemInfo>
+    <HQuantity>2</HQuantity>
+    <TFacility>HandBall Traning                                  </TFacility>
+    <ContactPerson>Billy                                             </ContactPerson>
+    <Organization>Stadia                                            </Organization>
+    <FunctionName>Swimming gala                                     </FunctionName>
+    <PhoneNum>7213589</PhoneNum>
+    <StartDateFunction>2013-07-18T00:00:00+03:00</StartDateFunction>
+    <EndDateFunction>2013-07-31T00:00:00+03:00</EndDateFunction>
+    <Location>NYAYO NATIONAL STADIUM                            </Location>
+    <ResidentialNum>100</ResidentialNum>
+    <NRnum>0</NRnum>
+    <CustomerNumber>S0032</CustomerNumber>
+  </ItemInfo>
+  <ItemInfo>
+    <HQuantity>10</HQuantity>
+    <TFacility>Adults Per Person                                 </TFacility>
+    <ContactPerson>Billy                                             </ContactPerson>
+    <Organization>Stadia                                            </Organization>
+    <FunctionName>Swimming gala                                     </FunctionName>
+    <PhoneNum>7213589</PhoneNum>
+    <StartDateFunction>2013-07-18T00:00:00+03:00</StartDateFunction>
+    <EndDateFunction>2013-07-31T00:00:00+03:00</EndDateFunction>
+    <Location>NYAYO NATIONAL STADIUM                            </Location>
+    <ResidentialNum>100</ResidentialNum>
+    <NRnum>0</NRnum>
+    <CustomerNumber>S0032</CustomerNumber>
+  </ItemInfo>
+  <ItemInfo>
+    <HQuantity>1</HQuantity>
+    <TFacility>Educational Tours                                 </TFacility>
+    <ContactPerson>Judy                                              </ContactPerson>
+    <Organization>Stadia                                            </Organization>
+    <FunctionName>School Tour                                       </FunctionName>
+    <PhoneNum>7256896</PhoneNum>
+    <StartDateFunction>2013-07-17T00:00:00+03:00</StartDateFunction>
+    <EndDateFunction>2013-07-17T00:00:00+03:00</EndDateFunction>
+    <Location>KASARANI                                          </Location>
+    <ResidentialNum>0</ResidentialNum>
+    <NRnum>20</NRnum>
+    <CustomerNumber>S0033</CustomerNumber>
+  </ItemInfo>
+  <ItemInfo>
+    <HQuantity>1</HQuantity>
+    <TFacility>T.V.                                              </TFacility>
+    <ContactPerson>Judy                                              </ContactPerson>
+    <Organization>Stadia                                            </Organization>
+    <FunctionName>School Tour                                       </FunctionName>
+    <PhoneNum>7256896</PhoneNum>
+    <StartDateFunction>2013-07-17T00:00:00+03:00</StartDateFunction>
+    <EndDateFunction>2013-07-17T00:00:00+03:00</EndDateFunction>
+    <Location>KASARANI                                          </Location>
+    <ResidentialNum>0</ResidentialNum>
+    <NRnum>20</NRnum>
+    <CustomerNumber>S0033</CustomerNumber>
+  </ItemInfo>
+  <ItemInfo>
+    <HQuantity>1</HQuantity>
+    <TFacility>International Sports Events                       </TFacility>
+    <ContactPerson>Nelson Mandela                                    </ContactPerson>
+    <Organization>Mandelas family                                   </Organization>
+    <FunctionName>Mandela Birthday Celebration                      </FunctionName>
+    <PhoneNum>711366885</PhoneNum>
+    <StartDateFunction>2013-07-18T00:00:00+03:00</StartDateFunction>
+    <EndDateFunction>2013-07-19T00:00:00+03:00</EndDateFunction>
+    <Location>KASARANI                                          </Location>
+    <ResidentialNum>0</ResidentialNum>
+    <NRnum>0</NRnum>
+    <CustomerNumber>S0034</CustomerNumber>
+  </ItemInfo>
+  <ItemInfo>
+    <HQuantity>10</HQuantity>
+    <TFacility>FloodLights                                       </TFacility>
+    <ContactPerson>Nelson Mandela                                    </ContactPerson>
+    <Organization>Mandelas family                                   </Organization>
+    <FunctionName>Mandela Birthday Celebration                      </FunctionName>
+    <PhoneNum>711366885</PhoneNum>
+    <StartDateFunction>2013-07-18T00:00:00+03:00</StartDateFunction>
+    <EndDateFunction>2013-07-19T00:00:00+03:00</EndDateFunction>
+    <Location>KASARANI                                          </Location>
+    <ResidentialNum>0</ResidentialNum>
+    <NRnum>0</NRnum>
+    <CustomerNumber>S0034</CustomerNumber>
+  </ItemInfo>
+  <ItemInfo>
+    <HQuantity>8</HQuantity>
+    <TFacility>Main Hall                                         </TFacility>
+    <ContactPerson>Michael Jordan                                    </ContactPerson>
+    <Organization>Michael's Anniverssary                            </Organization>
+    <FunctionName>BasketBall Event                                  </FunctionName>
+    <PhoneNum>711895623</PhoneNum>
+    <StartDateFunction>2013-07-19T06:10:00+03:00</StartDateFunction>
+    <EndDateFunction>2013-07-19T18:26:07+03:00</EndDateFunction>
+    <Location>KASARANI                                          </Location>
+    <ResidentialNum>2</ResidentialNum>
+    <NRnum>1</NRnum>
+    <CustomerNumber>S0035</CustomerNumber>
+  </ItemInfo>
+  <ItemInfo>
+    <HQuantity>1</HQuantity>
+    <TFacility>Flood Lights                                      </TFacility>
+    <ContactPerson>Michael Jordan                                    </ContactPerson>
+    <Organization>Michael's Anniverssary                            </Organization>
+    <FunctionName>BasketBall Event                                  </FunctionName>
+    <PhoneNum>711895623</PhoneNum>
+    <StartDateFunction>2013-07-19T06:10:00+03:00</StartDateFunction>
+    <EndDateFunction>2013-07-19T18:26:07+03:00</EndDateFunction>
+    <Location>KASARANI                                          </Location>
+    <ResidentialNum>2</ResidentialNum>
+    <NRnum>1</NRnum>
+    <CustomerNumber>S0035</CustomerNumber>
+  </ItemInfo>
+  <ItemInfo>
+    <HQuantity>2</HQuantity>
+    <TFacility>Educational Tours                                 </TFacility>
+    <ContactPerson>Caroline karimi                                   </ContactPerson>
+    <Organization>Riruta HGM                                        </Organization>
+    <FunctionName>School Tour                                       </FunctionName>
+    <PhoneNum>7134568</PhoneNum>
+    <StartDateFunction>2013-07-26T06:10:00+03:00</StartDateFunction>
+    <EndDateFunction>2013-07-26T14:41:46.277+03:00</EndDateFunction>
+    <Location>KASARANI                                          </Location>
+    <ResidentialNum>0</ResidentialNum>
+    <CustomerNumber>S0036</CustomerNumber>
+  </ItemInfo>
+  <ItemInfo>
+    <HQuantity>1</HQuantity>
+    <TFacility>LCD Projector                                     </TFacility>
+    <ContactPerson>Caroline karimi                                   </ContactPerson>
+    <Organization>Riruta HGM                                        </Organization>
+    <FunctionName>School Tour                                       </FunctionName>
+    <PhoneNum>7134568</PhoneNum>
+    <StartDateFunction>2013-07-26T06:10:00+03:00</StartDateFunction>
+    <EndDateFunction>2013-07-26T14:41:46.277+03:00</EndDateFunction>
+    <Location>KASARANI                                          </Location>
+    <ResidentialNum>0</ResidentialNum>
+    <CustomerNumber>S0036</CustomerNumber>
+  </ItemInfo>
+  <ItemInfo>
+    <HQuantity>4</HQuantity>
+    <TFacility>Educational Tours                                 </TFacility>
+    <ContactPerson>Sarah                                             </ContactPerson>
+    <Organization>Media max                                         </Organization>
+    <FunctionName>Video Shooting                                    </FunctionName>
+    <PhoneNum>71222333</PhoneNum>
+    <StartDateFunction>2013-07-22T03:10:00+03:00</StartDateFunction>
+    <EndDateFunction>2013-07-22T05:39:13.113+03:00</EndDateFunction>
+    <Location>KASARANI                                          </Location>
+    <ResidentialNum>0</ResidentialNum>
+    <CustomerNumber>S0037</CustomerNumber>
+  </ItemInfo>
+  <ItemInfo>
+    <HQuantity>4</HQuantity>
+    <TFacility>Educational Tours                                 </TFacility>
+    <ContactPerson>Pat Mugo                                          </ContactPerson>
+    <Organization>Wananchi                                          </Organization>
+    <FunctionName>AGm                                               </FunctionName>
+    <PhoneNum>71222333</PhoneNum>
+    <StartDateFunction>2013-07-22T08:10:00+03:00</StartDateFunction>
+    <EndDateFunction>2013-07-22T13:39:13+03:00</EndDateFunction>
+    <Location>KASARANI                                          </Location>
+    <ResidentialNum>0</ResidentialNum>
+    <CustomerNumber>S0038</CustomerNumber>
+  </ItemInfo>
+  <ItemInfo>
+    <HQuantity>2</HQuantity>
+    <TFacility>Local Sports Events                               </TFacility>
+    <ContactPerson>Pat Mugo                                          </ContactPerson>
+    <Organization>Wananchi                                          </Organization>
+    <FunctionName>AGm                                               </FunctionName>
+    <PhoneNum>71222333</PhoneNum>
+    <StartDateFunction>2013-07-22T08:10:00+03:00</StartDateFunction>
+    <EndDateFunction>2013-07-22T13:39:13+03:00</EndDateFunction>
+    <Location>KASARANI                                          </Location>
+    <ResidentialNum>0</ResidentialNum>
+    <CustomerNumber>S0038</CustomerNumber>
+  </ItemInfo>
+</ArrayOfItemInfo>

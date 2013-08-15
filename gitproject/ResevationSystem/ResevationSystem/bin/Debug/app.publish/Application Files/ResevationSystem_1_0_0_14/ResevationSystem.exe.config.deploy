@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<configuration>
+    <configSections>
+    </configSections>
+    <connectionStrings>
+      <!-- <add name="ResevationSystem.Properties.Settings.HM2ConnectionString"
+            connectionString="Data Source=EMC2\SQLEXPRESS; Initial Catalog=HM2; User ID=hm; Password=stadia4321"
+            providerName="System.Data.SqlClient" />
+      <add name="ResevationSystem.Properties.Settings.HM2ConnectionString1"
+          connectionString="Data Source=EMC2\SQLEXPRESS;Initial Catalog=HM2;Integrated Security=True"
+          providerName="System.Data.SqlClient" />-->
+
+     <add name="ResevationSystem.Properties.Settings.HM2ConnectionString"
+            connectionString="Data Source=SPORTSSTADIA\SQLEXPRESS; Initial Catalog=HM2; User ID=hm2; Password=stadia4321"
+            providerName="System.Data.SqlClient" />
+
+      <add name="ResevationSystem.Properties.Settings.HM2ConnectionString1"
+          connectionString="Data Source=SPORTSSTADIA\SQLEXPRESS; Initial Catalog=HM2; User ID=hm2; Password=stadia4321"
+          providerName="System.Data.SqlClient" ></add>
+
+     
+    </connectionStrings>
+<startup><supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.0"/></startup></configuration>
